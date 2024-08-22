@@ -35,6 +35,7 @@ a{
   display: inline-block;
   padding: 16px 0px;
   font-size: 18px;
+  position: relative;
 }
 .header-menu a::after{
   content: "";
@@ -44,6 +45,7 @@ a{
   background: #ffffff;
   margin-top: 4px;
   transition: 0.3s;
+  position: absolute;
 }
 
 .header-menu a:hover::after{
@@ -66,6 +68,9 @@ a{
   }
   .header-menu a:hover{
     background-color: #2E2E2E;
+  }
+  .header-menu a:hover::after{
+    display: none;
   }
 }
 @media (max-width: 600px){

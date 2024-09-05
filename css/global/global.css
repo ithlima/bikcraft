@@ -30,3 +30,6 @@ img{
 img[src$=".jpg"]{
   border-radius: 4px;
 }
+textarea{
+  resize: none;
+}
